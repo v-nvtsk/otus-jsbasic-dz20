@@ -2,10 +2,6 @@ name: Add codesandbox link
 
 on:
   pull_request:
-    # types: [opened]
-  # https://github.com/mshick/add-pr-comment/issues/25
-  # pull_request_target:
-    # types: [opened]
 
 jobs:
   codesandbox-comment:
@@ -21,3 +17,15 @@ jobs:
             https://githubbox.com/${{ github.repository }}/tree/${{ github.head_ref }}
             Also, you can check build at CodeSandbox with the link
             https://githubbox.com/${{ github.repository }}/tree/gh-pages
+  gh-pages-comment:
+    name: Add gh-pages link comment
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Add comment
+        uses: mshick/add-pr-comment@v2
+        with:
+          message: |
+            Deploy link on GitHub Pages:
+            https://v-nvtsk.github.io/otus-jsbasic-dz17/${{ github.repository }}

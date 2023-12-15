@@ -22,10 +22,3 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: prod # The folder the action should deploy.
-
-      - name: Add comment
-        uses: mshick/add-pr-comment@v2
-        with:
-          message: |
-            Deploy link on GitHub Pages:
-            https://v-nvtsk.github.io/otus-jsbasic-dz17/${{ github.repository }}
