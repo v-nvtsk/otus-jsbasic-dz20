@@ -28,4 +28,4 @@ jobs:
         with:
           message: |
             Deploy link on GitHub Pages:
-            https://v-nvtsk.github.io/otus-jsbasic-dz17/${{ github.repository }}
+            https://v-nvtsk.github.io/${{ github.repository }}
