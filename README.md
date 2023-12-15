@@ -1,3 +1,5 @@
+[![PR Sanity Check](https://github.com/v-nvtsk/otus-jsbasic-dz20/actions/workflows/sanity-check.yaml/badge.svg)](https://github.com/v-nvtsk/otus-jsbasic-dz20/actions/workflows/sanity-check.yaml) [![pages-build-deployment](https://github.com/v-nvtsk/otus-jsbasic-dz20/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/v-nvtsk/otus-jsbasic-dz20/actions/workflows/pages/pages-build-deployment) 
+
 # Курс "JavaScript Developer. Basic" | OTUS
 
 ## Домашнее задание - Приложение "Стилизация страницы, позиционирование элементов"
