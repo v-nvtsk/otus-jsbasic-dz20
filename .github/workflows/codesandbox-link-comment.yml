@@ -17,5 +17,3 @@ jobs:
             https://githubbox.com/${{ github.repository }}/tree/${{ github.head_ref }}
             Also, you can check gh-pages build at CodeSandbox with the link
             https://githubbox.com/${{ github.repository }}/tree/gh-pages
-            Deploy link on GitHub Pages:
-            https://v-nvtsk.github.io/${{ github.repository }}
